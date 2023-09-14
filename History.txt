@@ -1,100 +1,94 @@
+以下是上述语句的翻译，专有名词不翻译：
+
 == 3.5.2 - 2015/06/21
 
-* A variety of bug fixes and small improvements.
+* 各种错误修复和小改进。
 
 == 3.5.1 - 2010/03/28
 
-*  Added bibliography style that didn't make it into the intial release.
+* 添加了一种没有包含在初始版本中的参考文献样式。
 
 == 3.5.0 - 2009/12/11
 
-* Added a [nohyper] document class option that suppresses loading of the
-  hyperref package.
-* Added three commands to modify the positioning of the captions.
-* Now automatically recalculates the lengths in case you've modified the page
-  size or margins.
-* Added a B5 paper size.
-* The justification of sidenotes, margin notes, captions, and citations can be
-  set individually now.
-* The font and style of sidenotes, margin notes, captions, and citations can
-  now be set individually.
-* The \caption command now accepts an optional vertical offset argument.
-* Added the \morefloats command that works in the same way the morefloats
-  package does.
-* Fixed a number of bugs.
+* 添加了一个 [nohyper] 文档类选项，用于禁止加载 hyperref 包。
+* 添加了三个命令，用于修改标题的位置。
+* 现在可以自动重新计算长度，以防您修改了页面大小或边距。
+* 添加了 B5 纸张尺寸。
+* 现在可以单独设置旁注、边注、标题和引用的对齐方式。
+* 现在可以单独设置旁注、边注、标题和引用的字体和样式。
+* \caption 命令现在接受可选的垂直偏移参数。
+* 添加了 \morefloats 命令，其工作方式与 morefloats 包相同。
+* 修复了一些错误。
 
 == 3.0.0 - 2009/05/17
 
-* Created a Tufte-book document class.
-* Added optional offset parameter to sienotes, cite, etc. so their vertical
-  position can be adjusted manually.
-* Added support for the `bidi' package with XeLateX.
-* Adjusted font sizes and spacing to more closely reflect those used in 
-  Tufte's books.
-* Captions are now typeset in the margin as in Tufte's books.
+* 创建了 Tufte-book 文档类。
+* 为旁注、引用等添加了可选的偏移参数，以手动调整它们的垂直位置。
+* 支持使用 XeLaTeX 的 `bidi` 包。
+* 调整了字体大小和间距，以更接近 Tufte 的书籍中使用的样式。
+* 标题现在像 Tufte 的书籍一样排在页边。
 
 == 2.0.1 - 2008/11/16
 
-* Now works with footmisc version > 5.4.
+* 现在兼容 footmisc 版本 > 5.4。
 
 == 2.0.0 - 2008/06/06
 
-* Added `sfsidenotes' option to set the sidenotes and captions in the sans
-  serif font.
-* Use the Palatino fonts if they're installed.
-* Created `marginfig' and `margintab' environments.
-* Added running heads.
-* Fixed the alignment of sidenote numbers.
-* Added \section and \subsection headings.
-* Uses the Bera Mono fonts if they're installed.
-* Added `symmetric' option to produce outside-margin sidenotes in two-sided
-  spreads.
-* Added `justified' option to set the text fully justified.
-* Rewrote sample-handout to illustrate the tufte-handout usage and serve as an
-  example of its features.
+* 添加了 `sfsidenotes` 选项，以设置旁注和标题为无衬线字体。
+* 如果已安装，使用 `Palatino`字体。
+* 创建了 `marginfig` 和 `margintab` 环境。
+* 添加了页眉。
+* 修复了旁注编号的对齐问题。
+* 添加了` \section` 和` \subsection `标题。
+* 如果已安装，使用 Bera Mono 字体。
+* 添加了 `symmetric` 选项，以在双面页面中产生外边距旁注。
+* 添加了 `justified` 选项，以将文本设置为完全对齐。
+* 重写了 `sample-handout` 以说明 `tufte-handout` 的使用并作为其功能的示例。
 
 == 1.2.3 - 2008/02/11
 
-* To remove References section from sample-handout.
-* Updated README.txt
+* 从 `sample-handout` 中删除 `References` 部分。
+* 更新了 README.txt。
 
 == 1.2.2 - 2008/02/09
 
-* Use footmisc package to set \footnotes as sidenotes
-* Use natbib package to set bibliography entries as sidenotes
+* 使用 `footmisc` 包将` \footnotes` 设置为旁注。
+* 使用 `natbib` 包将参考文献条目设置为旁注。
 
 == 1.2.1 - 2007/10/21
 
-* To assure existing \footnotes become \sidenotes
+* 确保现有的 `\footnotes` 变成 `\sidenotes`。
 
 == 1.2.0 - 2007/10/20
 
-* Enhancements
-  * Added a4paper option (Kevin Godby)
-  * Have \margin{note,figure,table} use \@tufteh@marginfont
-* Bug fix
-  * \@tufteh@overhang typo in figure*, table*, and fullwidth environments (Kevin Godby)
+* 增强
+  * 添加了 `a4paper` 选项（Kevin Godby）
+  * 使` \margin{note,figure,table} `使用` \@tufteh@marginfont`
+* 修复了 `bug`
+  * 在 figure*、table* 和 fullwidth 环境中的 \@tufteh@overhang 拼写错误（Kevin Godby）
 
 == 1.1.0 - 2007/10/18
 
-* To add some missing environments and commands:
+* 添加了一些缺失的环境和命令：
   * sidenote
-  * marginnote (no mark)
+  * marginnote（无标记）
   * marginfigure/table
-  * text-width figure/table (figure/table)
-  * page-width figure/table (figure*/table*)
-  * page-width environment (for custom minipage displays)
-* To namespace raggedright
-* To add margin font hook
+  * 文本宽度的 figure/table（figure/table）
+  * 页面宽度的 figure/table（figure*/table*）
+  * 页面宽度的环境（用于自定义 minipage 显示）
+* 命名空间 raggedright
+* 添加了页边字体钩子
 
 == 1.0.1 - 2007/09/24
 
-* To correct README instructions.
+* 更正了 README 说明。
 
 == 1.0.0 - 2007/09/24
 
-* First public release
+* 第一次公开发布
+
+。
 
 == 0.1.0 - 2004/02/04
 
-* Birthday!
+* 生日快乐！
