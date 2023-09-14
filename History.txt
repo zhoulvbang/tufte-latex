@@ -33,36 +33,36 @@
 == 2.0.0 - 2008/06/06
 
 * 添加了 `sfsidenotes` 选项，以设置旁注和标题为无衬线字体。
-* 如果已安装，使用 `Palatino`字体。
+* 如果已安装，使用 Palatino 字体。
 * 创建了 `marginfig` 和 `margintab` 环境。
 * 添加了页眉。
 * 修复了旁注编号的对齐问题。
-* 添加了` \section` 和` \subsection `标题。
+* 添加了 \section 和 \subsection 标题。
 * 如果已安装，使用 Bera Mono 字体。
 * 添加了 `symmetric` 选项，以在双面页面中产生外边距旁注。
 * 添加了 `justified` 选项，以将文本设置为完全对齐。
-* 重写了 `sample-handout` 以说明 `tufte-handout` 的使用并作为其功能的示例。
+* 重写了 sample-handout 以说明 tufte-handout 的使用并作为其功能的示例。
 
 == 1.2.3 - 2008/02/11
 
-* 从 `sample-handout` 中删除 `References` 部分。
+* 从 sample-handout 中删除 References 部分。
 * 更新了 README.txt。
 
 == 1.2.2 - 2008/02/09
 
-* 使用 `footmisc` 包将` \footnotes` 设置为旁注。
-* 使用 `natbib` 包将参考文献条目设置为旁注。
+* 使用 footmisc 包将 \footnotes 设置为旁注。
+* 使用 natbib 包将参考文献条目设置为旁注。
 
 == 1.2.1 - 2007/10/21
 
-* 确保现有的 `\footnotes` 变成 `\sidenotes`。
+* 确保现有的 \footnotes 变成 \sidenotes。
 
 == 1.2.0 - 2007/10/20
 
 * 增强
-  * 添加了 `a4paper` 选项（Kevin Godby）
-  * 使` \margin{note,figure,table} `使用` \@tufteh@marginfont`
-* 修复了 `bug`
+  * 添加了 a4paper 选项（Kevin Godby）
+  * 使 \margin{note,figure,table} 使用 \@tufteh@marginfont
+* 修复了 bug
   * 在 figure*、table* 和 fullwidth 环境中的 \@tufteh@overhang 拼写错误（Kevin Godby）
 
 == 1.1.0 - 2007/10/18
